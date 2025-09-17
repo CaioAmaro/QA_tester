@@ -115,7 +115,7 @@ Abaixo estão os principais endpoints disponíveis na API. Para uma documentaç�
 
 ## 👨‍💻 Autor
 
-**[Seu Nome Completo]**
+**[Caio Amaro]**
 
 - LinkedIn: [https://linkedin.com/in/seu-linkedin](https://linkedin.com/in/seu-linkedin)
 - GitHub: [https://github.com/seu-usuario](https://github.com/seu-usuario)
