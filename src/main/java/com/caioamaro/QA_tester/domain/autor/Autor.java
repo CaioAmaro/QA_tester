@@ -1,5 +1,6 @@
 package com.caioamaro.QA_tester.domain.autor;
 
+import com.caioamaro.QA_tester.web.dto.autor.CreateAutorDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,7 +18,7 @@ public class Autor {
     private Long id;
     private String name;
 
-    public Autor(String name) {
-        this.name = name;
+    public Autor(CreateAutorDTO dto) {
+        this.name = dto.name();
     }
 }
