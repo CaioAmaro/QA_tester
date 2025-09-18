@@ -17,6 +17,7 @@ public class Autor {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private String nacionalidade;
 
     public Autor(CreateAutorDTO dto) {
         this.name = dto.name();
